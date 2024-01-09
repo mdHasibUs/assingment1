@@ -12,6 +12,7 @@
     left: 42%;
     top: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Merriweather', serif;
 }
 
 .text1 {
@@ -30,6 +31,7 @@
     margin-left: 400px;
     margin-right: 400px;
     margin-bottom: 120px;
+    font-family: 'Merriweather', serif;
 }
 
 .container1-text {
@@ -69,12 +71,20 @@
     top: 25px;
 }
 
+.container2image {
+    position: absolute;
+    z-index: 1;
+    left: 850px;
+    bottom: -80px;
+}
+
 .first-content {
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
     letter-spacing: 7.04px;
     margin-left: 45px;
+    font-family: 'Merriweather', serif;
 }
 
 .container2-small {
@@ -82,12 +92,14 @@
     font-weight: 400;
     line-height: 30px;
     margin-left: 45px;
+    font-family: 'Inter', sans-serif;
 }
 
 .container2-finisher {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
 }
 
 .container2-finisher a {
@@ -132,11 +144,12 @@
 }
 
 .first3 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
     margin-bottom: 5px;
+    font-family: 'Inter', sans-serif;
 }
 
 .container4 {
@@ -161,6 +174,7 @@
     font-size: 48px;
     font-weight: 700;
     color: red;
+    font-family: 'Inter', sans-serif;
 }
 
 .right2 {
@@ -173,6 +187,7 @@
     font-size: 24px;
     font-weight: 500;
     color: red;
+    font-family: 'Inter', sans-serif;
 }
 
 .left2 {
@@ -217,6 +232,7 @@
     font-size: 24px;
     font-weight: 500;
     padding-top: 15px;
+    font-family: 'Inter', sans-serif;
 }
 
 .h2one {
@@ -224,6 +240,7 @@
     font-size: 72px;
     font-weight: 900;
     margin-top: 25px;
+    font-family: 'Merriweather', serif;
 }
 
 .pone {
@@ -231,6 +248,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -279,6 +297,7 @@
     color: #F00;
     font-size: 24px;
     font-weight: 500;
+    font-family: 'Inter', sans-serif;
 }
 
 .main6 {
@@ -286,6 +305,7 @@
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
+    font-family: 'Merriweather', serif;
 }
 
 .footer6 {
@@ -293,6 +313,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    font-family: 'Inter', sans-serif;
 }
 
 .container6image1 {
@@ -325,6 +346,7 @@
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
+    font-family: 'Merriweather', serif;
 }
 
 .container7small {
@@ -333,6 +355,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -366,54 +389,64 @@
 .footer-main {
     background-color: black;
     color: white;
+    font-family: 'Inter', sans-serif;
 }
 
-.fotter1 {
-    padding-left: 140px;
-    padding-top: 120px;
-    padding-bottom: 260px;
+.footer-last1 {
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-last1>ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left: 800px;
+}
+
+.footer-last1 li {
+    list-style: none;
+}
+
+.footer-last1 h3 {
+    margin-top: 120px;
+    margin-left: 140px;
+}
+
+.footer-image8 {
+    margin-top: 100px;
+    margin-left: 645px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.sesh1 {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
 }
 
-.footer2 {
-    padding-left: 140px;
-    padding-bottom: 120px;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-}
 
-.number8 {
-    padding-top: 120px;
-    padding-left: 791px;
-}
-
-.website8 {
-    margin-top: 10px;
-    padding-left: 791px;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px;
-}
-
-.footer-flex {
+.dear-sir-or-maam {
     display: flex;
 }
 
-.unsubscribe {
-    padding-left: 791px;
-    margin-top: 600px;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500
+.can-i-get-number-60 {
+    margin-top: 120px;
+    margin-left: 140px;
+    margin-bottom: 120px;
 }
 
-.footer-images{
-    margin-top: 350px;
-    padding-left: 50px;
+.pretty-please {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left: 900px;
+    margin-bottom: 120px;
 }
-
